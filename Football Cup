@@ -1,0 +1,16 @@
+v#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+int t;
+cin>>t;
+while(t--){
+    int X,Y;
+    cin>>X>>Y;
+    if(X>0 && Y>0 && X==Y)
+    std::cout << "yes" << std::endl;
+    else
+    std::cout << "no" << std::endl;
+}
+}
