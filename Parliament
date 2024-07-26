@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t; // Number of test cases
+
+    while (t--) {
+        int x, y; // x: members in favor, y: members against
+        cin >> x >> y;
+
+        int requiredVotes = y * 2; // Half or more than half of total members
+        if (requiredVotes >= x) {
+            cout << "YES" << endl; // Resolution is passed
+        } else {
+            cout << "NO" << endl; // Resolution is not passed
+        }
+    }
+
+    return 0;
+}
