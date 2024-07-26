@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int A,B,C;
+	    cin>>A>>B>>C;
+	    if(A>9&&B>9&&C>9 &&(A+B+C)>99)
+	    std::cout << "pass" << std::endl;
+	    else
+	    std::cout << "fail" << std::endl;
+	}
+
+}
