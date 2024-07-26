@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int X,Y;
+	    cin>>X>>Y;
+	    std::cout << Y+0.1*X << std::endl;
+	}
+	
+
+}
